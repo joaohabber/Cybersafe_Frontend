@@ -1,0 +1,29 @@
+.page-container {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange children vertically */
+    padding: 70px;
+    height: 100vh; /* Full viewport height */
+}
+
+.back-icon{
+    color: #8ecc51 !important;
+    font-size: 2rem !important;
+    margin-right: 20px !important;
+    cursor: pointer;
+}
+
+.no-margins{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-feed-form-row{
+    margin-top: 30px !important;
+}
+

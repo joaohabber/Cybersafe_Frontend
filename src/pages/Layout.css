@@ -1,0 +1,21 @@
+.background{
+    background-color: #001426;
+    height: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: calc(100vw - 400px) !important;
+    z-index: 1;
+}
+
+.off-canvas-width{
+    background-color: #001426;
+    width: 400px !important; /*Same as the width of the off canvas in off-canvas.tsx*/
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.layout{
+    height: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}

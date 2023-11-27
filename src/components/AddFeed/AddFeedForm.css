@@ -1,0 +1,14 @@
+
+#add-feed-button {
+    width: 100%;
+    background-color: #8ecc51;
+    color: #001426;
+    font-weight: 500;
+    border-radius: 10px;
+    border-color: #8ecc51;
+}
+
+#add-feed-button:hover {
+    background-color: #6b9c3d; /* Slightly darker background color on hover */
+    color: #ffffff;
+}   
