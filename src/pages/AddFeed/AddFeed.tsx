@@ -1,9 +1,8 @@
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import './AddFeed.css';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';
-import { useState } from 'react';
-import AddFeedForm from '../../components/AddFeed/AddFeedForm';
+import AddFeedForm from '../../components/AddFeedForm/AddFeedForm';
 
 function Feeds() {
 

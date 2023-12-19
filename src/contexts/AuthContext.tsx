@@ -13,14 +13,20 @@ interface AuthProviderProps {
 }
 
 export const AuthProvider = ({ children }: AuthProviderProps) => {
+  // Token variable is used to store the user token. It is initialized to null.
   const [userToken, setUserToken] = React.useState<string | null>(null);
 
   console.log(`userToken in auth context: ${userToken}`);
+
+  // login function is used to set the user token
   const login = (email: string, password: string) => {
+    //TODO: implement login logic and service call
     console.log(`login: ${email}, ${password}`);
     console.log(`Login success`);
     setUserToken('asdf');
   };
+
+  //TODO implement logout function
 
   const contextValue: AuthContextProps = {
     login,
