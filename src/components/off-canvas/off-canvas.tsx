@@ -15,6 +15,8 @@ function OffCanvasMenu() {
 
   const navigate = useNavigate();
 
+
+  //Function to handle tab click and navigate to the respective page
   const handleTabClick = (tabValue:string) => {
     console.log("Tab Clicked", tabValue);
     setActiveTab(tabValue);

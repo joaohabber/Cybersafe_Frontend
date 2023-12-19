@@ -4,14 +4,15 @@ import { useState } from 'react';
 import './AddFeedForm.css';
 
 function AddFeedForm() {
+
+  // Variables for form fields
   const[name, setName] = useState('');
   const[feedType, setFeedType] = useState('');
   const[url, setUrl] = useState('');
   const[fileType, setFileType] = useState('');
   const[indicatorType, setIndicatorType] = useState('');
 
-  const navigate = useNavigate();
-
+  //TODO implement submit logic
 
   return (
     <>

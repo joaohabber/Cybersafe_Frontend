@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Feeds.css';
 import ModalView from '../../components/ModalView/ModalView';
 import { useState } from 'react';
-import AddFeedForm from '../../components/AddFeed/AddFeedForm';
+import AddFeedForm from '../../components/AddFeedForm/AddFeedForm';
 
 function Feeds() {
   const navigate = useNavigate();
