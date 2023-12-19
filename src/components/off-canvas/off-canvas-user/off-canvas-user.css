@@ -1,0 +1,42 @@
+.off-canvas-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cybersafe-user-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001426;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+
+.user-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.name-and-function-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.name{ 
+    font-size:18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.function{
+    text-align: left;
+    font-size: 15px;
+    color: #A9A9A9;
+}

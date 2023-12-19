@@ -1,0 +1,38 @@
+#toggle-off-canvas-icon{ 
+    position: fixed;
+    top: 20;
+    left: 20;
+    padding: 10px;
+    cursor: pointer;
+    color: #8ecc51;
+    font-size: 40px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    border-color: transparent;
+}
+
+#off-canvas{
+    background-color: #f5f3ed;
+}
+
+#logout-button{
+    display: flex;
+    margin: 0 0 20px 20px;
+    align-items: center;
+    cursor: pointer;
+    color: #b23b3b;
+    font-size: 20px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    border-color: transparent;
+}
+
+.logout-button-label{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+nav a.active{
+    text-decoration: none;
+}
+
